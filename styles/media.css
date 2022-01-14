@@ -1,0 +1,91 @@
+/* my */
+
+
+/* 4k devices */
+@media (min-width: 1441px) and (max-width: 2600px) {
+	body{
+		background: yellow;
+	}
+
+	h1 {
+		color: blue;
+		font-size: 50px;
+	}
+}
+
+
+/* 1440px - 1025px devices */
+@media (min-width: 1025px) and (max-width: 1440px) {
+	body{
+		background: yellow;
+	}
+
+	h1 {
+		color: aqua;
+		font-size: 150px;
+		margin: 280px 0 0 0 ;
+		background: #000;
+		padding: 70px 0; 
+	}
+}
+
+
+/* 1024px - 769px devices */
+@media (min-width: 769px) and (max-width: 1024px) {
+	body{
+		background: pink;
+	}
+
+	h1 {
+		color: black;
+		font-size: 100px;
+	}
+}
+
+
+/* 768px - 426px devices */
+@media (min-width: 426px) and (max-width:768px) {
+	body{
+		background: rgb(2,0,36);
+		background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(5,4,75,1) 16%, rgba(9,9,121,1) 35%, rgba(7,6,98,1) 52%, rgba(7,6,97,1) 60%, rgba(148,138,26,1) 62%, rgba(7,6,97,1) 68%, rgba(0,212,255,1) 100%);
+	}
+
+	h1 {
+		color: white;
+		font-size: 220px;
+		margin: 70px 0 0 0;
+	}
+}
+
+
+/* 376 - 425*/
+@media (min-width: 376px) and (max-width:425px) {
+
+	body{
+		background:hotpink;
+	}
+	h1 {
+		background: brown;
+	}
+}
+
+/* 376 - 425*/
+@media (min-width: 376px) and (max-width:426px) {
+
+	body{
+		background:gold;
+	}
+	#block{
+		background:purple;
+	}
+}
+
+@media  (max-width:325px) {
+
+	body{
+		background:red;
+	}
+	h1 {
+		background:grey;
+	}
+}
